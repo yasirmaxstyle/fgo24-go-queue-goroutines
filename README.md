@@ -17,6 +17,16 @@ This project is a simple Go-based simulation of concurrent queue processing usin
 - Time measurement with `time` package
 - Nanosecond to second conversion using `1e9`
 
+## Example Output
+```go
+--- You have 4 queues ---
+Queue 1: 2.003219581 seconds
+Queue 2: 1.000049183 seconds
+Queue 3: 5.000103201 seconds
+Queue 4: 3.000500129 seconds
+All queues completed!
+```
+
 ## How to run this program
 ### Prerequisite
 - [Go Programming Language](https://go.dev/)
