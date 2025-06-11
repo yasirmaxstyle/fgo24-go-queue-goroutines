@@ -29,8 +29,8 @@ func Queue() {
 		wg.Add(1)
 		go queue(&wg, done)
 		fmt.Printf("Queue %d: ", x+1)
-		time := float64(<-done) / 1e9 //divided by 1 exp 9 to get rid of "e+" in result
-		fmt.Printf("%.9f\n", time)
+		time := float64(<-done) / 1e9 //convert to seconds to get rid of "e+" in result
+		fmt.Printf("%.9f seconds\n", time)
 		wg.Wait()
 	}
 
