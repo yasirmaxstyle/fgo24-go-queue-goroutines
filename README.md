@@ -1,5 +1,5 @@
 # ⏳ Go Concurrency Queue Simulation
-This project is a simple Go-based simulation of concurrent queue processing using `goroutines`, `channels`, and `WaitGroups`. It demonstrates how multiple tasks (queues) can run in parallel and report their individual execution durations.
+This project is a simple Go-based simulation of concurrent queue processing using `goroutines`, `channels`, and `WaitGroups`. It demonstrates how multiple tasks (queues) can run concurrently and report their individual execution durations.
 
 ## Features
 - Spawns a random number of "queues" (between 1–10).
